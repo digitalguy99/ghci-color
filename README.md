@@ -22,10 +22,15 @@ Clone the repository to local machine:
 git clone https://github.com/rhysd/ghci-color.git
 ```
 
-Put a script file in $PATH directory:
+Put the script file in directory listed in `PATH` environment variable:
 
-- [ghci-color](./ghci-color) for Bash
-- [ghci-color.ps1](./ghci-color.ps1) for PowerShell
+- [ghci-color](./ghci-color) for Mac/Linux
+- [ghci-color.ps1](./ghci-color.ps1) for Windows
+
+>If you are using Windows, run the following as well on your CLI:
+>```cmd
+>setx PATHEXT "%PATHEXT%;.PS1" /M
+>```
 
 Run `ghci-color` instead of ghci.
 
